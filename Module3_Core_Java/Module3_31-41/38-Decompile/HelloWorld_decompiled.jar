@@ -1,0 +1,14 @@
+/*
+ * Decompiled with CFR 0.152.
+ */
+public class HelloWorld{
+    private String message = "Hello, Java bytecode!";
+
+    public void printMessage() {
+        System.out.println(this.message);
+    }
+
+    public static void main(String[] stringArray) {
+        new HelloWorld().printMessage();
+    }
+}

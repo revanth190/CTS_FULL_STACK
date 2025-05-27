@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sidebar Layout</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .bg-sidebar {
+      background-color: #f8f9fa; /* Bootstrap light */
+    }
+    .bg-content {
+      background-color: #e9ecef; /* Slightly darker shade */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container mt-5">
+    <h2 class="mb-4 text-center">Sidebar and Content Layout</h2>
+    
+    <div class="row">
+      <!-- Sidebar -->
+      <div class="col-md-3 p-3 border bg-sidebar">
+        <h4>Sidebar</h4>
+        <ul class="list-unstyled">
+          <p>Small column col-md-3</p>
+        </ul>
+      </div>
+
+      <!-- Main Content -->
+      <div class="col-md-9 p-3 border bg-content">
+        <h4>Main Content</h4>
+        <p>This is the main content area col-md-9. On small screens, the sidebar stacks above this.</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

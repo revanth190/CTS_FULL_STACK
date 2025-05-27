@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Display and Visibility Example</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+
+  <div class="container my-4">
+
+    <div class="p-3 bg-primary text-white d-none d-md-block">
+      <!-- Hidden on xs and sm, visible as block on md and up -->
+      <p>This section is hidden on small screens, visible as block on md and larger.</p>
+    </div>
+
+    <div class="p-3 bg-success text-white d-none d-lg-flex">
+      <!-- Hidden on xs, sm, md; flex display on lg and larger -->
+      <p>This section is hidden below large screens, visible as flex on lg and larger.</p>
+    </div>
+
+    <div class="p-3 bg-warning text-dark d-block d-md-none">
+      <!-- Visible block on xs and sm, hidden on md and above -->
+      <p>This section is visible only on small screens (xs and sm).</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
